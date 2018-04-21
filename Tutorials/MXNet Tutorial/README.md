@@ -1,8 +1,11 @@
 
 # MXNet Tutorial
 个人笔记。
+
 [中文教程](http://zh.gluon.ai/)
+
 [第一季课程视频](https://discuss.gluon.ai/t/topic/753)
+
 [课程源代码](https://github.com/mli/gluon-tutorials-zh)
 
 ## 目录
@@ -12,10 +15,10 @@
 	* [预备知识](#预备知识)
 	    * [机器学习简介](#机器学习简介)
 		    * 机器学习四要素(#机器学习四要素)
-			* 监督学习(#监督学习(supervised-learning))
-			* 无监督学习(#)
-			* 与环境因素交互(#)
-		* 使用NDArray来处理数据(#使用NDArray来处理数据)
+			* 监督学习(#监督学习——supervised-learning)
+			* 无监督学习(#无监督学习——unsupervised-learning)
+			* 与环境因素交互(#与环境因素交互——Online Learning)
+		* 使用NDArray来处理数据(#使用ndarray来处理数据)
 		* 使用autograd来自动求导(#使用autograd来自动求导)
     * [深度学习模型基础](#深度学习模型基础)
 
@@ -29,7 +32,7 @@
   * 损失函数(Loss Functions): 训练误差(training error), 测试误差(test error)
   * 优化算法(Optimization Algorithms): i.e. 梯度下降法
   
-### 监督学习(Supervised Learning)
+### 监督学习——Supervised Learning
 training set with ground-truth label + supervised learning algorithm => learned model
 
 * 回归分析(Regression): 输入时任意离散或连续的、单一或多个的变量，输出是连续的数值（某个范围内的任意实数值）。
@@ -42,7 +45,7 @@ training set with ground-truth label + supervised learning algorithm => learned 
   * 文本转语音(Text to Speech)
   * 机器翻译(Machine Translation)
 
-### 无监督学习(Unsupervised Learning)
+### 无监督学习——Unsupervised Learning
 
 * 聚类(clustering): 
 * 子空间估计(subspace estimation): 
@@ -51,7 +54,7 @@ training set with ground-truth label + supervised learning algorithm => learned 
 * 贝叶斯图模型(Probabilistic/Bayes Graphical Model)
 * 生成对抗网络(generative adversarial networks)
 
-### 与环境因素交互(Online Learning)
+### 与环境因素交互——Online Learning
 
 * 强化学习(Reinforcement Learning): 机器人程序、对话系统、电子游戏AI. i.e.: AlphaGo, Deep Q Network
   * 马尔科夫决策过程(Markov Decision Process)
